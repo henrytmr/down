@@ -4,9 +4,9 @@ import extras
 import moodleclient
 import os
 
-API_ID = 18233797
-API_HASH = "6cad012cd66ba62e1b7d49f1f84742d1"
-BOT_TOKEN = "7279915670:AAHOPZhjXd-KBq9bUICQj-jdqI-edi0XXYQ"
+API_ID = 29246871
+API_HASH = "637091dfc0eee0e2c551fd832341e18b"
+BOT_TOKEN = "6998654254:AAGSqiXJFEl-TXJhCF5TjJj7QyZrIiVCrvI"
 
 bot = Client("moodle", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 data = {"moodle": "", "token": "", "ws": True, "upec": False}
