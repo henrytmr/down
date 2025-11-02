@@ -1,0 +1,5 @@
+pyrogram
+requests
+aiohttp
+bs4
+nest_asyncio
