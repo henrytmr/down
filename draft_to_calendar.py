@@ -60,9 +60,9 @@ async def send_calendar(moodle: str, user: str, passw: str, urls: list) -> list:
             return False
 
 async def main(url):
-    moodle = "https://aulavirtual.upec.cu"
-    user = "yordante"
-    passw = "*Yordan1"
+    moodle = "https://aulaelam.sld.cu"
+    user = "luisernestorb95"
+    passw = "Luisito1995*"
     urls = [url]
     client = await send_calendar(moodle,user,passw,urls)
     return client
